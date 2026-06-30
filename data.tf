@@ -3,7 +3,7 @@ data "aws_availability_zones" "available" {
 }
 
 data "aws_vpc" "peer" {
-  id = "vpc-0fbd6f6e92597a946"
+  id = "vpc-0df71f151be7ac061"
 }
 
 data "aws_route_table" "peer" {
